@@ -6,7 +6,5 @@ public class sumOfElements {
             sum += add;
         }
             System.out.println(sum);
-
-
     }
 }
