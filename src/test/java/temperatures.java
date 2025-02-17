@@ -1,5 +1,7 @@
 public class temperatures {
     public static void main(String[] args) {
+        // Fid the Highest temp and Lowest temp
+
         double [] temperature={97.0, 88.0, 66.0};
 
         double highTemp=temperature[0];
