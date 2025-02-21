@@ -1,6 +1,9 @@
-public class temperatures {
+public class task1 {
+
     public static void main(String[] args) {
-        // Find the Highest temp and Lowest temp
+
+        //Create a program that uses an array to store a list of temperatures for a week, and then uses a loop
+        //to find the highest and lowest temperature for the week.
 
         double [] temperature={97.0, 88.0, 66.0};
 
@@ -14,9 +17,7 @@ public class temperatures {
                 lowtemp=temperature[t];
             }
         }
-        System.out.println("Highest temperature :"+highTemp);
-        System.out.println("Lowest temperature :"+lowtemp);
-
+        System.out.println("Highest temperature : "+highTemp);
+        System.out.println("Lowest temperature : "+lowtemp);
     }
-
 }
